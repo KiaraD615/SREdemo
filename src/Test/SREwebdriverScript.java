@@ -32,7 +32,7 @@ driver.navigate().to("C:\\Users\\keesh\\Desktop\\apps\\index.html");
 
 public String getTitle() throws IOException {
 	String title=driver.getTitle().toString();
-	driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+	 driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 	System.out.println(title+" page fully loaded");
 	
 	return title;
