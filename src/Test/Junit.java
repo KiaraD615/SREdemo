@@ -29,7 +29,7 @@ public class Junit {
 
 
 @Test
-@Then("^Check title$")
+@Then("^Check title$)
 	public void titleChk() throws IOException{
 	String title=SRE.getTitle();
 	assertEquals(title,
